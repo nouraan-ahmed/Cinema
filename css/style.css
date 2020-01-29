@@ -31,18 +31,27 @@
 }
 li,a,button{
     font-size: 20px;
-    color: crimson;
+    color: #C2C1C2;
     text-decoration: none;
+    font-weight: 500;
 }
 header{
     display: flex;
     justify-content: flex-end;
     align-items:center;
     padding: 30px 10%;
+    background-color:  #42213D;
 }
 .logo{
-    cursor:pointer;
     margin-right: auto;
+    width: 50px;
+}
+.log{
+margin-right: auto;
+flex-direction: row;
+display: flex;
+margin-left: 35 px;
+font-size: 44px;
 }
 .nav-links{
     list-style: none;
@@ -55,17 +64,19 @@ header{
     transition: all 0.3s ease 0s;
 }
 .nav-links li a:hover{
-    color: rgb(52, 52, 250);
+    color: rgb(14, 13, 14);
 }
 button{
     padding: 9px 25px;
-    background-color: rgb(52, 52, 250);
+    background-color: #C2C1C2;
     border: none;
     margin-left: 20px;
-    border-radius: 50 px;
-    cursor:pointer;
-    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    color: #42213D;
+    font-weight: 650;
+    
 }
 button:hover{
-    background-color: darkgrey;
+    background-color: rgb(104, 102, 102);
+    border-radius: 50px;
 } 
