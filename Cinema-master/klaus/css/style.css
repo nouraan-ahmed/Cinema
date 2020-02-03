@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    align-content: center;
+}
+.navbar-toggle.x .icon-bar:nth-of-type(1) {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;
+	transform-origin: 10% 10%;
+}
+
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 4px 0 4px 0;
+    transition: all 0.2s;
+  }
+  .navbar-toggler .icon-bar:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .navbar-toggler .icon-bar:nth-of-type(2) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .navbar-toggler .icon-bar:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .navbar-toggler.collapsed .icon-bar:nth-of-type(1) {
+    transform: rotate(0);
+  }
+  .navbar-toggler.collapsed .icon-bar:nth-of-type(2) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .navbar-toggler.collapsed .icon-bar:nth-of-type(3) {
+    transform: rotate(0);
+  }
+  .drop{
+    width: 100px !important;
+    height: 40px !important;
+    margin-top:3px ;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+  .carousel-item .card
+  {
+    margin-left: 100%;
+    width: 100%;
+    margin-bottom: 300px;
+  }
+.card img{
+  height: 400px;
+}
+h1
+{
+    margin-left: 6%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: blanchedalmond;
+}
+
+.logo{
+    margin-right: auto;
+    width: 50px;
+    height: 60px;
+}
+.log{
+margin-right: auto;
+flex-direction: row;
+display: flex;
+margin-left: 35 px;
+font-size: 44px;
+}
+
+.clear{
+	clear: both;
+}
+.nav-link 
+{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration-color: black;
+}
+.nav-link:hover
+{
+  background-color:rgba(145, 12, 19, 0.568);
+ text-decoration-color: white;
+}
+.dropdown-item:hover
+{
+  background-color:rgba(196, 8, 17, 0.801);
+ text-decoration-color: white;
+}
+.hover
+{
+  height: 450px;
+  
+}
+.hover img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8%;
+}
