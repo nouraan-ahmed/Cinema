@@ -1,7 +1,23 @@
-body {
-  padding-top: 50px;
+.container2 {
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    margin-bottom: 50px;
+    display: flex;
+}
+.card {
+    margin-top: 50px;
+}
+.card img {
+    height: 300px;
 }
 
+.card2 img{
+    height :450px
+}
+
+/* footer{
+    height: 30px;
+} */
 
 .navbar-toggle.x .icon-bar:nth-of-type(1) {
 	-webkit-transform: rotate(45deg);
@@ -99,7 +115,3 @@ body {
 .list-group-item:hover::before{
   height: 180%;
 }
-
-/* .bg-modal{
-
-} */
