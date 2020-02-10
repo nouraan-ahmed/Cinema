@@ -1,0 +1,109 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0:;
+	text-decoration: none;
+	font-family: montserrat;
+}
+h1
+{
+	text-align: center;
+	padding-bottom: 5%
+}
+.signup
+{
+	background-image: url(../img/bg2.jpg);
+	width: 100%;
+	padding: 15%;padding-bottom: 500px;
+	z-index: 1
+}
+.input
+{
+ background-image: linear-gradient(120deg,#ff0000,#8e44ad);
+/* width: 580px;
+ height: 490px;*/
+ padding: 40px 40px;
+ border-radius:50px;
+ left: 50%;top: 50%;transform: translate(-50%,-50%);
+ position: absolute;
+ box-shadow:  ;
+
+}
+.txtb
+{
+	border-bottom: 2px solid #adadad
+	;position: relative;
+	margin-bottom: 40px;
+}
+.txtb input
+{
+	font-size: 20px;
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 30px;
+	padding: 0 5px;
+	color: #333;
+	background: transparent;
+
+}
+.txtb span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s;
+	font-size: 30px
+}
+.txtb span::after{
+content: '';
+position: absolute;
+width: 0%;
+height: 2px;
+transition: .5s;
+background:  linear-gradient(120deg,#4f0000,#8e44ad);
+}
+
+.focus + span::before{
+	top: -10px;
+	color: blue;
+	font-size: 20px;
+	left: 0
+	top: 100%
+
+}
+.focus + span::after{
+	width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 100%
+}
+button, .logbtn
+{
+	color: blue;/* border-radius: 10px;*/
+	width: 100%;
+	height: 50px;
+	display: block;
+	border: none;
+	background: linear-gradient(120deg,#ffffff,#005eff);
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+	border: none;
+	background-size: 150%;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+button:hover , .logbtn:hover{
+	background-position: right;
+}
+
+.n
+{
+	display: none;
+}
