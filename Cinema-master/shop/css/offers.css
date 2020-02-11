@@ -1,16 +1,26 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  align-content: center;
+.container2 {
+  margin-bottom: 50px;
+  display: flex;
 }
+.card {
+  margin-top: 50px;
+}
+.card img {
+  height: 300px;
+}
+
+.card2 img{
+  height :450px
+}
+
+
 .navbar-toggle.x .icon-bar:nth-of-type(1) {
--webkit-transform: rotate(45deg);
--ms-transform: rotate(45deg);
-transform: rotate(45deg);
--webkit-transform-origin: 10% 10%;
--ms-transform-origin: 10% 10%;
-transform-origin: 10% 10%;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;
+	transform-origin: 10% 10%;
 }
 
 .navbar-toggler:active,
@@ -55,64 +65,55 @@ transform-origin: 10% 10%;
   font-weight: 500;
 }
 
-.dropdown-item:hover
-{
-  background-color:rgba(196, 8, 17, 0.801);
- text-decoration-color: white;
-}
-
 .logo{
   margin-right: auto;
   width: 50px;
   height: 60px;
 }
 .log{
-margin-right: auto;
-flex-direction: row;
-display: flex;
-margin-left: 35 px;
-font-size: 44px;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+  margin-left: 35 px;
+  font-size: 44px;
 }
+  
 
-.carousel-item{
-  height: 320px !important;
-}
 
 
 .list-group-item{
-/* border: 1px solid #dc3545; */
-font-size: 20px;
-font-family: "montserrat", Arial, Helvetica, sans-serif;
-cursor: pointer;
-color: #fff;
-transition: 0.8s;
-position: relative;
-overflow: hidden;
+  /* border: 1px solid #dc3545; */
+  font-size: 20px;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
 }
 
 .list-group a {
-text-decoration: none;
-z-index: 1;
+  text-decoration: none;
+  z-index: 1;
 }
 
 .list-group-item:hover{
-color: #fff;
+  color: #fff;
 }
 
-
 .list-group-item::before{
-content: "";
-position: absolute;
-left: 0;
-width: 100%;
-height: 0%;
-background: #dc3545;
-transition: 0.5s;
-z-index: -1;
-bottom: 0;
-border-radius: 50% 50% 0 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #dc3545;
+  transition: 0.5s;
+  z-index: -1;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
 }
 
 .list-group-item:hover::before{
-height: 180%;
+  height: 180%;
 }
