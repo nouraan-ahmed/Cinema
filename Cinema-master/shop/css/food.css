@@ -67,11 +67,22 @@
   margin-left: 35 px;
   font-size: 44px;
 }
-    
+
+
+  
+.otlob{
+  color: black;
+}
+.otlob:hover{
+  color: #dc3545;
+  text-decoration: none;
+  transition: 0.9s;
+}
+
+
 .carousel-item{
   height: 310px !important;
 }
-
 
 .list-group-item{
   /* border: 1px solid #dc3545; */
@@ -110,6 +121,36 @@
   height: 180%;
 }
 
-/* .bg-modal{
 
-} */
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 2;
+  display: none;
+}
+.modal-content{
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+
+  text-align: center;
+  padding: 20px;
+
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  font-size: 35px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

@@ -71,7 +71,7 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Otlob</h1>
+        <a href="shop.html" class="otlob"><h1 class="my-4">Otlob</h1></a>
         <div class="list-group bg">
           <a href="food.html" class="list-group-item bg-dark">Food</a>
           <a href="drink.html" class="list-group-item bg-dark">Drinks & Icecream</a>
@@ -229,9 +229,30 @@
 
   </div>
 
-  <!-- <div class="bg-modal">
 
-  </div> -->
+  <div class="bg-modal">
+    <div class="modal-content">
+      <div class="close">+</div>
+
+      <label></label>
+      <img src="" alt="">
+
+
+      <div class="form-group">
+
+        <label>Quantity</label>
+        <input type="number" class="form-control" step="1" min="1" max="30" value="1">
+
+        <div class="modal-footer">
+          <button type="submit" onclick="location.href='../Otlob now/Otlob.html';" class="btn btn-danger">Order</button>
+          <button type="button" id="cancel" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
 
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -241,7 +262,7 @@
 
   <script src="jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
-
+  <script src="js/shop.js"></script>
 </body>
 
 </html>

@@ -67,11 +67,11 @@ transform-origin: 10% 10%;
   height: 60px;
 }
 .log{
-margin-right: auto;
-flex-direction: row;
-display: flex;
-margin-left: 35 px;
-font-size: 44px;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+  margin-left: 35 px;
+  font-size: 44px;
 }
 
 .carousel-item{
@@ -116,6 +116,14 @@ border-radius: 50% 50% 0 0;
 
 .list-group-item:hover::before{
 height: 180%;
+}
+
+.otlob{
+  color: black;
+}
+.otlob:hover{
+  color: black;
+  text-decoration: none;
 }
 
 
