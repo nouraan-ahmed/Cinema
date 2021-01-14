@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css/fontawesome.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Sign In</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+
+<body style="background-color:#DBD8AE ;">
+	<nav class="navbar navbar-default sticky-top shadow navbar-expand-lg  navbar-white bg-danger">
+		<a class="navbar-brand btn-danger mr-5 ml-5 font-weight-bold ml-5 pl-5" href="file:///C:/Users/20111/OneDrive/Documents/GitHub/Cinema/Cinema-master/index.html">
+		  <div class="log">
+		  <img class="logo" src="posters/logo2.png" alt="logo">
+		  <p>inema</p> 
+		  </div>
+		</a>
+		<button class="navbar-toggler  collapsed" type="button"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="icon-bar btn-dark"></span>
+		  <span class="icon-bar btn-dark"></span>
+		  <span class="icon-bar btn-dark "></span>
+	
+		</button>
+		<div class="collapse navbar-collapse mr-5 " id="navbarNav" style="font-size: 20px;">
+		  <ul class="navbar-nav ml-auto">
+			 
+			<li class="nav-item active ">
+	
+			  <div class="dropdown">
+				<button class="drop btn text-dark btn-danger dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  MOVIES
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				  <a class="dropdown-item" href="file:///C:/Users/20111/OneDrive/Documents/GitHub/Cinema/Cinema-master/action/action.html" target="_blank">Action</a>
+				  <a class="dropdown-item" href="file:///C:/Users/20111/OneDrive/Documents/GitHub/Cinema/Cinema-master/cartoon/cartoon.html" target="_blank">Cartoon</a>
+				  
+				</div>
+				
+			  </div>
+	
+			</li>
+		
+		  </li>
+		  <li class="nav-item ">
+			<a class="nav-link text-dark btn-lg active" href="file:///C:/Users/20111/OneDrive/Documents/GitHub/Cinema/Cinema-master/sign%20in/SignIn.html?email=&password=#">SIGN UP</a>
+		  </li>
+			<li class="nav-item  ">
+			  <a class="nav-link text-dark btn-lg" href="file:///C:/Users/20111/OneDrive/Documents/GitHub/Cinema/Cinema-master/shop/shop.html">OTLOB</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	
+	  <div class="container2 d-flex flex-column justify-content-center align-items-center " style="background-image:url('posters/bg2.jpg');background-repeat: no-repeat ;background-color: rgb(58, 38, 7);
+	  background-position: center; background-size: cover;">
+	  <nav class="navbar1 data  ">
+		  
+		<form  class="form-inline d-flex data align-items-center justify-content-center">
+		 
+			<div class="signup">
+
+				<div class="input">
+					<div class="n">
+					<h1>
+
+				<div class="txtb">
+					<input type="email" name="email">
+					<span data-placeholder="Email"></span>
+				</div>
+				
+				<div class="txtb">
+					<input type="password" name="password">
+					<span data-placeholder="Password"></span>
+				</div>
+				<p style="transform: translate(0,-50%) ; "> <a href="#" style="color: rgb(253, 250, 250);">Forget Password</a> </p>
+				<button value="link" class="btn-danger" >Log In</button>
+				<br>
+				<a href="#" style="text-decoration-line: none;">
+				<button value="link" class="btn-danger" >Sign Up</button>
+				</a>
+				</div>
+				
+				
+				</div>
+				</div>
+				
+		</form>
+	  </nav>
+	  </div>
+
+
+<script>
+	$(".txtb input").on("focus",function(){
+		$(this).addClass("focus");
+	})
+
+	// $(".txtb input").on("blur",function(){
+	// 	if ($(this).val() == "")
+	// 	$(this).removeClass("focus");
+	// })
+</script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/first.js"></script>
+</body>
+</html>
